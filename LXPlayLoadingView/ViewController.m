@@ -20,11 +20,9 @@
     
     self.loadingView =[[LXPlayLoadingView alloc]initWithFrame:CGRectMake(100, 100, 50, 50) animationDuration:2 strokeColor:[UIColor redColor]];
     
-    
     self.view.backgroundColor =[[UIColor blackColor]colorWithAlphaComponent:0.3];
     
     [self.view addSubview:self.loadingView];
-    
 }
 
 - (void)didReceiveMemoryWarning {
